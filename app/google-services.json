@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "115599551532",
+    "firebase_url": "https://coachit-f48f6-default-rtdb.firebaseio.com",
+    "project_id": "coachit-f48f6",
+    "storage_bucket": "coachit-f48f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115599551532:android:f47a19b909681d288fb589",
+        "android_client_info": {
+          "package_name": "com.example.coachit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfkmUpZ3C1fVwbsAxQRi0t9UB0FAVcawA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

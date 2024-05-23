@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/yellow"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/recImage"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baseline_add_a_photo_24"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"/>
+
+
+        <TextView
+            android:id="@+id/recName"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/recImage"
+            android:textStyle="bold"
+
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:id="@+id/recSurname"
+            android:textStyle="bold"
+
+            android:text="Surname"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recName"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recNickname"
+            android:text="Nickname"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recSex"
+            android:text="Sex"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recAge"
+            android:text="Date of Birth"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recTeam"
+            android:text="Team"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recCoach"
+            android:text="Coach"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recCity"
+            android:text="City"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recDomhand"
+            android:text="Dominant Hand"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recHeight"
+            android:text="Height"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recWeight"
+            android:text="Weight"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recWingspan"
+            android:text="Wingspan"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recVertical"
+            android:text="Vertical"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recPosition"
+            android:text="Position"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recContact1"
+            android:text="Phone Number"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recContact2"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:maxLines="0"
+            android:textSize="8sp"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/recImage"
+            android:layout_below="@id/recName"
+            android:layout_marginStart="20dp"/>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
