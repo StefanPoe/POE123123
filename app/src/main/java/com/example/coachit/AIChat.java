@@ -116,7 +116,7 @@ public class AIChat extends AppCompatActivity {
         }
         RequestBody body = RequestBody.create(jsonBody.toString(), JSON);
         Request request = new Request.Builder()
-                .url("https://api.openai.com/v1/chat/completions")
+               // .url("https://api.openai.com/v1/chat/completions")
                 .header("Authorization", "Bearer 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")
                 .post(body)
                 .build();
